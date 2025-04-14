@@ -1,0 +1,64 @@
+.header {
+  background: #1e3a5f; /* 深い青色の単色 - 宇宙をイメージ */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 16px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+/* スクロール時のヘッダー変化（オプション） */
+.scrolled {
+  padding: 12px 24px;
+  background: rgba(30, 58, 95, 0.97); /* 若干透明に */
+  backdrop-filter: blur(8px);
+}
+
+.titleButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.titleButton:hover {
+  transform: translateY(-2px);
+}
+
+.titleButton h1 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 1.7em;
+  font-weight: 600; /* やや軽めのウェイト */
+  letter-spacing: 0.5px;
+}
+
+/* "Thermal Tools" の部分だけ軽めの表示にする（オプション） */
+.titleButton h1 span {
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.logo {
+  margin-right: 12px;
+  height: 28px;
+  width: 28px;
+  display: inline-block;
+  background-image: url('/logo-icon.svg'); /* ロゴアイコンがある場合 */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 640px) {
+  .titleButton h1 {
+    font-size: 1.4em;
+  }
+}

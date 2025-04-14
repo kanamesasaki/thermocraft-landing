@@ -1,0 +1,31 @@
+/* src/components/Footer.module.css */
+.footer {
+    background-color: #f1f1f1;
+    padding: 15px 20px;
+    text-align: center;
+    color: #555;
+    margin-top: auto; /* フッターを一番下に固定 */
+    border-top: 1px solid #ddd;
+  }
+  
+  .links {
+    margin-bottom: 10px;
+  }
+  
+  .linkButton {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 10px;
+    font-size: 0.9em;
+  }
+  
+  .linkButton:hover {
+    text-decoration: underline;
+  }
+  
+  .copyright {
+    font-size: 0.85em;
+  }
