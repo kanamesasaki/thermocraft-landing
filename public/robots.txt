@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://thermocraft.space/sitemap.xml
+Sitemap: https://thermocraft.space/sitemap-index.xml 
