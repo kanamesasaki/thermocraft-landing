@@ -22,5 +22,12 @@ export interface Tool {
       url: 'https://psychroid.thermocraft.space/',
       ogImageUrl: 'https://psychroid.thermocraft.space/og-image.svg',
     },
+    {
+      id: 'craftbook',
+      title: 'Craftbook - Spacecraft Thermal Engineer\'s Notebook',
+      description: 'Technical articles on thermal and aerospace engineering topics, featuring mathematical derivations and code examples.', 
+      url: 'https://craftbook.thermocraft.space/',
+      ogImageUrl: 'https://craftbook.thermocraft.space/og-image.svg',
+    }
     // 他のツールもここに追加可能
   ];

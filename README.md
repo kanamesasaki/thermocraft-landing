@@ -12,6 +12,7 @@ Currently available tools:
 
 - **TASIndex** - A comprehensive database of spacecraft thermal analysis information and software for flight missions
 - **Psychroid** - Interactive psychrometric chart calculator for HVAC engineers
+- **Craftbook** - Technical articles on thermal and aerospace engineering topics, featuring mathematical derivations and code examples
 
 ## 🛠️ Tech Stack
 
