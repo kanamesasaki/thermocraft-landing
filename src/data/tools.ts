@@ -28,6 +28,13 @@ export interface Tool {
       description: 'Technical articles on thermal and aerospace engineering topics, featuring mathematical derivations and code examples.', 
       url: 'https://craftbook.thermocraft.space/',
       ogImageUrl: 'https://craftbook.thermocraft.space/og-image.svg',
+    },
+    {
+      id: 'viewfactor',
+      title: 'View Factor Calculator',
+      description: 'Radiation view factors (configuration factors) for different geometrical configurations are calculated by the analytical formula and Monte Carlo method.',
+      url: 'https://viewfactor.thermocraft.space/',
+      ogImageUrl: 'https://viewfactor.thermocraft.space/og-image.svg',
     }
     // 他のツールもここに追加可能
   ];
