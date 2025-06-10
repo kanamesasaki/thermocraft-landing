@@ -6,10 +6,18 @@
     </sitemap>
    <sitemap>
       <loc>https://tasindex.thermocraft.space/sitemap.xml</loc>
-      <lastmod>2025-04-15</lastmod>
+      <lastmod>2025-06-10</lastmod>
     </sitemap>
    <sitemap>
       <loc>https://psychroid.thermocraft.space/sitemap.xml</loc>
       <lastmod>2025-04-16</lastmod>
     </sitemap>
+   <sitemap>
+      <loc>https://craftbook.thermocraft.space/sitemap.xml</loc>
+      <lastmod>2025-06-05</lastmod>
+   </sitemap>
+    <sitemap>
+      <loc>https://viewfactor.thermocraft.space/sitemap.xml</loc>
+      <lastmod>2025-06-10</lastmod>
+   </sitemap>
 </sitemapindex>
