@@ -19,8 +19,8 @@ export interface Tool {
       id: 'psychroid',
       title: 'Psychroid - Psychrometric Chart Calculator',
       description: 'Interactive psychrometric chart calculator for HVAC engineers. Calculate and visualize air properties, process flows, and energy requirements.', 
-      url: 'https://psychroid.thermocraft.space/',
-      ogImageUrl: 'https://psychroid.thermocraft.space/og-image.svg',
+      url: 'https://psychroid.com/',
+      ogImageUrl: 'https://psychroid.com/og-image.svg',
     },
     {
       id: 'craftbook',
